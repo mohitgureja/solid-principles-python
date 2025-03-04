@@ -9,14 +9,11 @@ The SOLID principles are a set of design principles intended to make software de
 ## 1. Single Responsibility Principle (SRP)
 **Definition:** A class should have only one reason to change. In other words, a class should have a single, well-defined responsibility.
 
-- **Why?**
-  Keeping each class focused on a single responsibility prevents code from becoming too complex and tightly coupled to
-  multiple concerns.
+**Definition:
+** A class should have only one reason to change. In other words, a class should have a single, well-defined responsibility. 
 
-- **Example:** A class that handles both business logic and UI rendering violates SRP. Instead, split these
-  responsibilities into separate classes: one for business logic and another for UI.
-
-- [Learn more about SRP in this example notebook: `srp.ipynb`](./srp.ipynb)
+[Learn more with a detailed example in
+`srp.pynb`](./srp.ipynb)
 ---
 
 ## 2. Open/Closed Principle (OCP)
@@ -27,8 +24,8 @@ The SOLID principles are a set of design principles intended to make software de
 
 - **Example:** Instead of modifying a class to add new features, use interfaces, inheritance, or composition to extend the behavior.
 
-- [Learn more about OCP in this example notebook: `ocp.ipynb`](./ocp.ipynb)
-
+[Learn more with a detailed example in
+`ocp.pynb`](./ocp.ipynb)
 ---
 
 ## 3. Liskov Substitution Principle (LSP)
@@ -39,6 +36,8 @@ The SOLID principles are a set of design principles intended to make software de
 
 - **Example:** Avoid overriding methods in derived classes in such a way that they violate the expected behavior defined in the base class.
 
+[Learn more with a detailed example in
+`lsp.pynb`](./lsp.ipynb)
 ---
 
 ## 4. Interface Segregation Principle (ISP)
@@ -49,6 +48,8 @@ The SOLID principles are a set of design principles intended to make software de
 
 - **Example:** A "fat" interface with many unrelated methods should be broken into smaller, more specific interfaces.
 
+[Learn more with a detailed example in
+`isp.pynb`](./isp.ipynb)
 ---
 
 ## 5. Dependency Inversion Principle (DIP)
